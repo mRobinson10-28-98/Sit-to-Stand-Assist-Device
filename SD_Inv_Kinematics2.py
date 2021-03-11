@@ -22,8 +22,7 @@ points_coordinates = []
 
 #List of previously deleted points
 deleted_points = []
-print(7)
-print(9)
+
 # All paramters in feet from floor below the origin (below bottom left by a distance of origin_height)
 def create_point_array(x_min, x_max, y_min, y_max, increment):
     for pntx in range(bf.feet_to_pixels(x_min), bf.feet_to_pixels(x_max) + 1, bf.feet_to_pixels(increment)):
